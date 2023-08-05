@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 36, 0.829);
+}
+
+.headerContent {
+  background-color: rgba(0, 0, 36, 0.637);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.icon-png {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-right: 20px;
+  color: white;
+}
+
+.logo-caio {
+  width: 100px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.logo-caio:hover {
+  width: 120px;
+}
+
+.homeBtn {
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  margin-right: 20px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeBtn:hover {
+  background-color: rgba(30, 30, 184, 0.753);
+}
+
+.skillsBtn {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  margin-right: 20px;
+}
+
+.skillsBtn:hover {
+  background-color: rgba(30, 30, 184, 0.753);
+}
+
+.box-content {
+  background-color: rgba(0, 0, 36, 0.438);
+  width: 1300px;
+  height: 506px;
+  margin-top: 70px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: 1;
+  position: absolute;
+  left: 30px;
+}
+
+.sobre-title {
+  position: relative;
+  left: 25px;
+  top: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.gif-skills-page {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  width: 160px;
+}
+
+.sobre-text {
+  width: 600px;
+  position: relative;
+  display: inline-block;
+  top: -10px;
+  left: 45px;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.skills-content {
+  width: 1270px;
+  height: 255px;
+  margin-top: 320px;
+  background-color: rgba(20, 8, 29, 0.637);
+  left: 45px;
+  z-index: 2;
+  position: absolute;
+  border-radius: 12px;
+}
+
+.skills-title {
+  position: relative;
+  left: 15px;
+  top: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.logo-html {
+  width: 150px;
+  top: 50px;
+  position: absolute;
+  transition: 0.4s ease-in-out;
+}
+
+.logo-html:hover {
+  width: 157px;
+}
+
+.logo-css {
+  width: 168px;
+  position: absolute;
+  top: 46px;
+  left: 130px;
+  transition: 0.4s ease-in-out;
+}
+
+.logo-css:hover {
+  width: 175px;
+}
+
+.js-logo {
+  width: 168px;
+  position: absolute;
+  top: 46px;
+  left: 270px;
+  transition: 0.4s ease-in-out;
+}
+
+.js-logo:hover {
+  width: 175px;
+  justify-content: center;
+}
